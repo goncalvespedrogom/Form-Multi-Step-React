@@ -12,22 +12,27 @@
 .steps::after {
     content: "";
     width: 380px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #fff;
     position: absolute;
     top: 20px;
 }
 
 .step {
     text-align: center;
-    background-color: #fff;
+    background-color: #1a4f72;
     z-index: 1;
     width: 120px;
     padding: 0.5rem;
 }
 
+.step p {
+    color: #ffffff;
+}
+
 .step svg{
     font-size: 1.6rem;
     margin-bottom: .2rem;
+    fill: #ffffff9a;
 }
 
 .active {
@@ -35,7 +40,7 @@
 }
 
 .active > svg {
-    fill: #2864b3;
+    fill: #ffffff;
 }
 
 @media(max-width:480px) {

@@ -5,27 +5,35 @@
 
 .thanks-container h2 {
   margin-bottom: 1rem;
+  color: #ffffff;
 }
 
 .thanks-container p {
   font-size: 0.9rem;
   margin-bottom: 0.5rem;
+  color: #ffffffd7;
 }
 
 .thanks-container h3 {
   margin-top: 2rem;
   margin-bottom: 1rem;
+  color: #ffffff;
 }
 
 .review-data {
     text-align: left;
     display: flex;
     gap: .5rem;
+    align-items: center;
+}
+
+.review-data span{
+  color: #ffffff;
 }
 
 .review-data svg {
-    font-size: 1rem;
-    fill: #2864b3;
+    font-size: 1.5rem;
+    fill: #ffffffce;
 }
 
 .review-data span {
