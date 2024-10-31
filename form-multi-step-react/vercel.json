@@ -1,5 +1,5 @@
 {
    "rewrites":  [
-       {"source": "/(.*)", "destination": "/"}
+       {"source": "/Form-Multi-Step-React/(.*)", "destination": "/"}
     ]
 }
